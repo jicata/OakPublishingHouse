@@ -2,6 +2,7 @@ namespace OakPublishingHouse
 {
     using System;
     using System.IO;
+    using System.Linq;
     using Data;
     using Data.Models;
     using Microsoft.AspNetCore;
@@ -23,13 +24,16 @@ namespace OakPublishingHouse
                 {
                     var context = services.GetRequiredService<OakPublishingHouseDbContext>();
                     context.Database.EnsureCreated();
-                    context.Books.Add(new Book()
+                    if (!context.Books.Any())
                     {
-                        Author = "Jordan B. Peterson",
-                        Description = "Kewt bewk",
-                        Name = "12 Rules for Life: An Antidote to Chaos"
-                    });
-                    context.SaveChanges();
+                        context.Books.Add(new Book()
+                        {
+                            Author = "Jordan B. Peterson",
+                            Description = "Kewt bewk",
+                            Name = "12 Rules for Life: An Antidote to Chaos"
+                        });
+                        context.SaveChanges();
+                    }
                 }
                 catch (Exception ex)
                 {
