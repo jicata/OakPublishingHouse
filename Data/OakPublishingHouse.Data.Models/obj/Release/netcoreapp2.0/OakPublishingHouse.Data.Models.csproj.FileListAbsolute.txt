@@ -1,9 +1,0 @@
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\bin\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.deps.json
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\bin\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.dll
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\bin\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.pdb
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.csproj.CoreCompileInputs.cache
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.AssemblyInfoInputs.cache
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.AssemblyInfo.cs
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.dll
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.pdb
-K:\Programming\OakPublishingHouse\Data\OakPublishingHouse.Data.Models\obj\Release\netcoreapp2.0\OakPublishingHouse.Data.Models.csprojResolveAssemblyReference.cache
