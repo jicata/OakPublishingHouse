@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Rewrite;
+
 namespace OakPublishingHouse
 {
     using Microsoft.AspNetCore.Builder;
@@ -30,6 +33,7 @@ namespace OakPublishingHouse
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -42,6 +46,9 @@ namespace OakPublishingHouse
             else
             {
                 app.UseExceptionHandler("/Home/Error");
+                app.UseRewriter(new RewriteOptions()
+                    .AddRewrite("^(https?://)(?!www[.])(.*)$", "$1www.$2", true));
+
             }
 
             app.UseStaticFiles();
